@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="end">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container" style="padding-top: 40px; padding-bottom: 40px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center">Position Breakdown</p>
+                    <div class="row">
+                        {% if visuals.longs_breakdown_image_url %}
+                            <div class="col-lg-6">
+                                <img src="../../images/{{ visuals.longs_breakdown_image_url }}" alt="" class="img-responsive">
+                            </div>
+                        {% endif %}
+                        {% if visuals.shorts_breakdown_image_url %}
+                            <div class="col-lg-6">
+                                <img src="../../images/{{ visuals.shorts_breakdown_image_url }}" alt="" class="img-responsive">
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-center">Cumulative Returns</p>
+                    <img src="../../images/{{ visuals.cumulative_returns_image_url }}" alt="" class="img-responsive">
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-center">Scenario Returns</p>
+                    <img src="../../images/{{ visuals.scenario_returns_image_url }}" alt="" class="img-responsive">
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-center">Correlations</p>
+                    <img src="../../images/{{ visuals.correlation_chart_image_url }}" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
