@@ -21,11 +21,11 @@ seaborn
 scipy
 ```
 
-Then install the remaining requirements
+Install the dependencies with
 
 `pip install -r requirements.txt`
 
-Also if it is desired to convert the html output into a pdf, you can do this using [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
+Also, if it is desired to convert the html output into a pdf, you can do this using [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
 
 
 # Usage
