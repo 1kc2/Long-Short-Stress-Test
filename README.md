@@ -30,7 +30,7 @@ Also if it is desired to convert the html output into a pdf, you can do this usi
 
 # Usage
 
-`python run_stress_test.py --weights_file your_weights_file.csv`
+`python run_stress_test.py --weights_file example_weights.csv`
 
 Your `weights.csv` should look like this
 
