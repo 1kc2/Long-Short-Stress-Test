@@ -34,7 +34,7 @@ class Portfolio:
         """
         """
         print("Loading ticker manifest")
-        with open(os.path.join(self.root_ticker_path, "tickers"), "r") as ticker_file:
+        with open(os.path.join(self.root_ticker_path, "src/tickers"), "r") as ticker_file:
           all_tickers = ticker_file.readlines()
         all_tickers = [i.strip() for i in all_tickers]
         return all_tickers

@@ -8,7 +8,7 @@ from db_utils import get_postgres_engine
 from stress_test_rpt import render_report
 
 STRESS_TEST_TEMPLATE = "stress_test_rpt.html"
-STRESS_TEST_RPT_TARGET = "./reports/targets/stress_test_rpt_output.html"
+STRESS_TEST_RPT_TARGET = "../reports/targets/stress_test_rpt_output.html"
 
 class StressTest:
     """

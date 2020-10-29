@@ -11,7 +11,7 @@ def parse_args():
     parser.add_argument("--portfolio_name", default="TEST_PF")
     parser.add_argument("--weights_file", default="./weights.csv")
     parser.add_argument("--report_template_name", default="stress_test_rpt.html")
-    parser.add_argument("--report_target_path", default="./reports/targets/report.html")
+    parser.add_argument("--report_target_path", default="../reports/targets/report.html")
     parser.add_argument("--override", action="store_true")
     args = parser.parse_args()
     return args
